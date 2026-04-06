@@ -85,6 +85,7 @@ PRODUCT_PACKAGES += \
     libactuator_ov16880_qtech_rear_dw9714a \
     libactuator_ov16885_holitech_16m_fp5510a \
     libactuator_ov16885_ofilm_16m_dw9714v \
+    libarcsoft_dualcam_refocus \
     libchromatix_csidtg_common \
     libchromatix_csidtg_cpp_preview \
     libchromatix_csidtg_postproc \

@@ -266,6 +266,31 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libarcsoft_dualcam_refocus",
+    owner: "asus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libarcsoft_dualcam_refocus.so",
+            ],
+            shared_libs: [
+                "libmpbase",
+                "liblog",
+                "libdl",
+                "libc",
+                "libm",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libchromatix_csidtg_common",
     owner: "asus",
     strip: {
